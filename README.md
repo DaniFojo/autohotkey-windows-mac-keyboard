@@ -1,7 +1,7 @@
-Use Mac keyboard with AutoHotkey under Windows
+Make Windows shortcuts work similar to Mac's shortcuts with AutoHotKey
 ==============================================
 
-This [AutoHotkey](http://www.autohotkey.com/) configuration file makes usual keyboard shortcuts work with an Apple keyboard on Windows. It has been testet with a german keyboard layout, but should work under different layouts as well.
+This [AutoHotkey](http://www.autohotkey.com/) configuration file makes Windows shortcuts work similar to Mac.
 
 Installation
 ------------
