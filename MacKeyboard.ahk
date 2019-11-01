@@ -85,7 +85,7 @@ F19::Run https://facebook.com
 !w::Send ^w
 
 ; Close windows (cmd + q to Alt + F4)
-!q::Send !{F4}
+; !q::Send !{F4}
 
 ; Remap Windows + Tab to Alt + Tab.
 ; Lwin & Tab::AltTab
