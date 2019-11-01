@@ -52,46 +52,49 @@ F19::Run https://facebook.com
 ; --------------------------------------------------------------
 
 ; Make Ctrl + S work with cmd (windows) key
-#s::^s
+!s::Send ^s
 
 ; Selecting
-#a::^a
+!a::Send ^a
 
 ; Copying
-#c::^c
+!c::Send ^c
 
 ; Pasting
-#v::^v
+!v::Send ^v
 
 ; Cutting
-#x::^x
+!x::Send ^x
 
 ; Opening
-#o::^o
+!o::Send ^o
 
 ; Finding
-#f::Send ^f
+!f::Send ^f
 
 ; Undo
-#z::^z
+!z::Send ^z
 
 ; Redo
-#y::^y
+!y::Send ^y
 
 ; New tab
-#t::^t
+!t::Send ^t
 
 ; close tab
-#w::^w
+!w::Send ^w
 
 ; Close windows (cmd + q to Alt + F4)
-#q::Send !{F4}
+!q::Send !{F4}
 
 ; Remap Windows + Tab to Alt + Tab.
-Lwin & Tab::AltTab
+; Lwin & Tab::AltTab
 
 ; minimize windows
-#m::WinMinimize,a
+!m::WinMinimize,a
+
+; comment code
+!/::Send ^/
 
 
 ; --------------------------------------------------------------
@@ -99,52 +102,52 @@ Lwin & Tab::AltTab
 ; --------------------------------------------------------------
 
 ; Map Alt + L to @
-!l::SendInput {@}
+;!l::SendInput {@}
 
 ; Map Alt + N to \
-+!7::SendInput {\}
+;+!7::SendInput {\}
 
 ; Map Alt + N to ©
-!g::SendInput {©}
+;!g::SendInput {©}
 
 ; Map Alt + o to ø
-!o::SendInput {ø}
+;!o::SendInput {ø}
 
 ; Map Alt + 5 to [
-!5::SendInput {[}
+;!5::SendInput {[}
 
 ; Map Alt + 6 to ]
-!6::SendInput {]}
+;!6::SendInput {]}
 
 ; Map Alt + E to €
-!e::SendInput {€}
+;!e::SendInput {€}
 
 ; Map Alt + - to –
-!-::SendInput {–}
+;!-::SendInput {–}
 
 ; Map Alt + 8 to {
-!8::SendInput {{}
+;!8::SendInput {{}
 
 ; Map Alt + 9 to }
-!9::SendInput {}}
+;!9::SendInput {}}
 
 ; Map Alt + - to ±
-!+::SendInput {±}
+;!+::SendInput {±}
 
 ; Map Alt + R to ®
-!r::SendInput {®}
+;!r::SendInput {®}
 
 ; Map Alt + N to |
-!7::SendInput {|}
+;!7::SendInput {|}
 
 ; Map Alt + W to ∑
-!w::SendInput {∑}
+;!w::SendInput {∑}
 
 ; Map Alt + N to ~
-!n::SendInput {~}
+;!n::SendInput {~}
 
 ; Map Alt + 3 to #
-!3::SendInput {#}
+;!3::SendInput {#}
 
 
 
@@ -173,4 +176,3 @@ Lwin & Tab::AltTab
 #!u::Send ^u
 
 #IfWinActive
-
